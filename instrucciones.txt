@@ -37,3 +37,6 @@ Generate new token
 copiar el nuevo token
 ir a la terminal y ejecutar nuevamente git push origin master
 y en la clave pegar el nuevo token. Así pude solucionarlo.
+
+
+git remote set-url origin https://YOUR_TOKEN_HERE@github.com/your_user/your_project.git
