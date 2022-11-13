@@ -1,0 +1,39 @@
+Crear repositorio en GITGUB
+
+Comando para enlazar e inicializar
+
+ll
+
+git init
+
+ll
+
+git remote add origin (enlace gitgub)
+
+git remote -v
+
+git add *
+
+git commit -m “Mi primer archivo”
+
+git push origin main
+
+Refrescar pagina y revisar
+
+Despues de tener los dos archivos .gitignore y README.md_ agregarlo al gitgub, revisar que esten los tres archivos cargados.
+
+
+-----------------------------------------------------
+
+
+Al darle git push origin master, me dio fatal authentication failed for github. Esta fue mi solución:
+
+Ir a github
+settings
+Developer settings
+Personal acces token
+Tokens (classic)
+Generate new token
+copiar el nuevo token
+ir a la terminal y ejecutar nuevamente git push origin master
+y en la clave pegar el nuevo token. Así pude solucionarlo.
